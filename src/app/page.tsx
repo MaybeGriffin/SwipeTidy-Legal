@@ -13,7 +13,7 @@ export default function PrivacyPolicy() {
         {/* Hero Section */}
         <section className="py-12 md:py-20">
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-medium mb-4">Privacy Policy</h1>
-          <p className="text-[var(--foreground-muted)] text-sm">Updated: December 2024</p>
+          <p className="text-[var(--foreground-muted)] text-sm">Updated: December 2025</p>
         </section>
 
         {/* Introduction */}
@@ -239,38 +239,35 @@ export default function PrivacyPolicy() {
           </div>
 
           <div className="subsection">
-            <div className="subsection-title">Purposes for Which We Use Your Data</div>
+            <div className="subsection-title">Purposes for Which We Will Use Your Personal Data</div>
             <div className="subsection-content">
-              <div className="data-table">
-                <div className="data-table-header">
-                  <div>Purpose / Activity</div>
-                  <div>Type of Data</div>
-                  <div>Lawful Basis</div>
-                </div>
-                <div className="data-table-row">
-                  <div><strong>To register you as a new user</strong></div>
-                  <div>Identity (email address) and Contact data</div>
-                  <div>Performance of a contract with you</div>
-                </div>
-                <div className="data-table-row">
-                  <div><strong>To operate and provide our Services</strong></div>
-                  <div>Technical data (device type, app version) and Usage data (app interactions, preferences)</div>
-                  <div>Performance of a contract with you; Necessary for our legitimate interests (to deliver and improve our services)</div>
-                </div>
-                <div className="data-table-row">
-                  <div><strong>To manage our relationship with you</strong></div>
-                  <div>Identity and Contact data</div>
-                  <div>Performance of a contract; Necessary to comply with a legal obligation; Necessary for our legitimate interests (to keep our records updated)</div>
-                </div>
-                <div className="data-table-row">
-                  <div><strong>To improve our Services and user experience</strong></div>
-                  <div>Anonymous Technical and Usage data</div>
-                  <div>Necessary for our legitimate interests (to understand how users interact with the app, identify issues, and develop improvements)</div>
-                </div>
-              </div>
-              <p className="mt-4">
-                <strong>How photo access works:</strong> SwipeTidy accesses your device&apos;s photo library with your explicit permission to display photos for sorting. Your photos never leave your device—all processing happens locally. Your sorting decisions (kept/discarded photo IDs), preferences (haptics, sort order), and progress are stored exclusively on your device using secure local storage.
-              </p>
+              <p><strong>1. To register you as a new user</strong></p>
+              <ul className="hero-list">
+                <li><strong>Type of data:</strong> Identity (email address) and Contact data</li>
+                <li><strong>Lawful basis:</strong> Performance of a contract with you</li>
+                <li><strong>How it works:</strong> When you sign up for SwipeTidy using email, Google, Facebook, or Apple Sign-In, our authentication provider (Clerk) collects and stores your email address to create and manage your account. Your authentication tokens are stored securely on your device.</li>
+              </ul>
+
+              <p><strong>2. To operate and provide our Services</strong></p>
+              <ul className="hero-list">
+                <li><strong>Type of data:</strong> Technical data (device type, app version) and Usage data (app interactions, preferences)</li>
+                <li><strong>Lawful basis:</strong> Performance of a contract with you; Necessary for our legitimate interests (to deliver and improve our services)</li>
+                <li><strong>How it works:</strong> SwipeTidy accesses your device&apos;s photo library with your explicit permission to display photos for sorting. Your photos never leave your device—all processing happens locally. Your sorting decisions (kept/discarded photo IDs), preferences (haptics, sort order), and progress are stored exclusively on your device using secure local storage.</li>
+              </ul>
+
+              <p><strong>3. To manage our relationship with you</strong></p>
+              <ul className="hero-list">
+                <li><strong>Type of data:</strong> Identity and Contact data</li>
+                <li><strong>Lawful basis:</strong> Performance of a contract with you; Necessary to comply with a legal obligation; Necessary for our legitimate interests (to keep our records updated)</li>
+                <li><strong>How it works:</strong> We may use your email address to notify you about important changes to our terms or privacy policy, service disruptions, or security issues affecting your account.</li>
+              </ul>
+
+              <p><strong>4. To improve our Services and user experience</strong></p>
+              <ul className="hero-list">
+                <li><strong>Type of data:</strong> Anonymous Technical and Usage data</li>
+                <li><strong>Lawful basis:</strong> Necessary for our legitimate interests (to understand how users interact with the app, identify issues, and develop improvements)</li>
+                <li><strong>How it works:</strong> We may collect anonymized, aggregated data about app usage patterns—such as which features are used most frequently or common error states—to help us improve SwipeTidy. This data cannot be used to identify you personally.</li>
+              </ul>
             </div>
           </div>
         </section>
