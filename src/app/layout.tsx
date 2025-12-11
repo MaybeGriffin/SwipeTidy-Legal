@@ -14,8 +14,8 @@ const playfair = Playfair_Display({
 });
 
 export const metadata: Metadata = {
-  title: "Privacy Policy — SwipeTidy",
-  description: "Privacy Policy for SwipeTidy - Your photos never leave your device. Learn how we protect your privacy.",
+  title: "Privacy Policy — WipeSwipe",
+  description: "Privacy Policy for WipeSwipe - Your photos never leave your device. Learn how we protect your privacy.",
 };
 
 export default function RootLayout({

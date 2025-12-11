@@ -4,7 +4,7 @@ export default function PrivacyPolicy() {
       {/* Header */}
       <header className="px-6 py-6 md:px-12 lg:px-24">
         <a href="/" className="text-[var(--foreground)] font-medium text-lg hover:opacity-80 transition-opacity">
-          SwipeTidy
+          WipeSwipe
         </a>
       </header>
 
@@ -23,14 +23,14 @@ export default function PrivacyPolicy() {
               We respect your privacy and are committed to protecting your personal data. Here&apos;s what you need to know about how we protect your privacy:
             </p>
             <ul className="hero-list">
-              <li>Your photos never leave your device—SwipeTidy works entirely on your phone. We never upload, access, or store your photos on any external servers.</li>
+              <li>Your photos never leave your device—WipeSwipe works entirely on your phone. We never upload, access, or store your photos on any external servers.</li>
               <li>No ads, no tracking—we don&apos;t serve ads or track you across other apps.</li>
               <li>Authentication is minimal—we use Clerk for secure sign-in, storing only what&apos;s essential for your account.</li>
               <li>You&apos;re in control—you decide which photos to keep or delete. Nothing is permanently removed without your explicit confirmation.</li>
               <li>Local-first by design—all sorting, progress, and swipe decisions are stored on your device.</li>
             </ul>
             <p className="text-[var(--foreground-muted)] text-base leading-relaxed mt-6">
-              This privacy policy explains how we handle your personal data when you use SwipeTidy (the &quot;App&quot;) and tells you about your privacy rights and how the law protects you.
+              This privacy policy explains how we handle your personal data when you use WipeSwipe (the &quot;App&quot;) and tells you about your privacy rights and how the law protects you.
             </p>
           </div>
         </section>
@@ -53,7 +53,7 @@ export default function PrivacyPolicy() {
                 </p>
               </div>
               <p>
-                This privacy policy explains how SwipeTidy processes your personal data through your use of our App, including any data you may provide when creating an account or using our features.
+                This privacy policy explains how WipeSwipe processes your personal data through your use of our App, including any data you may provide when creating an account or using our features.
               </p>
               <p>
                 Our App is designed to help you organize and declutter your photo library through an intuitive swipe-based interface. All photo processing happens locally on your device—we never access, view, upload, or store your photos on our servers.
@@ -71,11 +71,11 @@ export default function PrivacyPolicy() {
               <div className="in-short-box">
                 <p className="in-short-label">in short</p>
                 <p className="in-short-text">
-                  SwipeTidy is responsible for keeping your data safe. We use industry-standard security for authentication, but your photos and swipe decisions remain private on your device.
+                  WipeSwipe is responsible for keeping your data safe. We use industry-standard security for authentication, but your photos and swipe decisions remain private on your device.
                 </p>
               </div>
               <p>
-                SwipeTidy is the data controller responsible for the personal data described in this privacy policy.
+                WipeSwipe is the data controller responsible for the personal data described in this privacy policy.
               </p>
               <p>
                 If you have any questions about this privacy policy, including any requests to exercise your legal rights in relation to your personal data, please contact us:
@@ -140,7 +140,7 @@ export default function PrivacyPolicy() {
                 <strong>– Technical Data</strong> includes your device type, operating system version, app version, and crash/error reports if you opt in. This helps us diagnose issues and improve app stability.
               </p>
               <p>
-                <strong>– Usage Data</strong> includes anonymous, aggregated information about how you interact with the app (e.g., features used, session duration). This data cannot identify you personally and helps us understand how to improve SwipeTidy.
+                <strong>– Usage Data</strong> includes anonymous, aggregated information about how you interact with the app (e.g., features used, session duration). This data cannot identify you personally and helps us understand how to improve WipeSwipe.
               </p>
               <p>
                 We also collect, use and share <strong>Aggregated Data</strong> such as statistical or demographic data for any purpose. Aggregated Data could be derived from your personal data but is not considered personal data in law as this data will not directly or indirectly reveal your identity. However, if we combine or connect Aggregated Data with your personal data so that it can directly or indirectly identify you, we treat the combined data as personal data which will be used in accordance with this privacy policy.
@@ -155,7 +155,7 @@ export default function PrivacyPolicy() {
             <div className="subsection-title">What We Do NOT Collect</div>
             <div className="subsection-content">
               <p><strong>Your photos and videos</strong> — We never upload, access, or store your media files on our servers. All photos remain on your device.</p>
-              <p><strong>Location data</strong> — SwipeTidy does not request or use your location.</p>
+              <p><strong>Location data</strong> — WipeSwipe does not request or use your location.</p>
               <p><strong>Contacts or address book</strong> — We never access your contacts.</p>
               <p><strong>Browsing history</strong> — We do not track your activity outside the app.</p>
             </div>
@@ -200,7 +200,7 @@ export default function PrivacyPolicy() {
                 <li>Subscribe to our communications or marketing updates</li>
               </ul>
               <p>
-                <strong>— On-device storage.</strong> When you use SwipeTidy, certain data is stored locally on your device and never transmitted to our servers:
+                <strong>— On-device storage.</strong> When you use WipeSwipe, certain data is stored locally on your device and never transmitted to our servers:
               </p>
               <ul className="hero-list">
                 <li>Your photo library metadata (filenames, dates, dimensions) used to display and organize photos within the app</li>
@@ -245,14 +245,14 @@ export default function PrivacyPolicy() {
               <ul className="hero-list">
                 <li><strong>Type of data:</strong> Identity (email address) and Contact data</li>
                 <li><strong>Lawful basis:</strong> Performance of a contract with you</li>
-                <li><strong>How it works:</strong> When you sign up for SwipeTidy using email, Google, Facebook, or Apple Sign-In, our authentication provider (Clerk) collects and stores your email address to create and manage your account. Your authentication tokens are stored securely on your device.</li>
+                <li><strong>How it works:</strong> When you sign up for WipeSwipe using email, Google, Facebook, or Apple Sign-In, our authentication provider (Clerk) collects and stores your email address to create and manage your account. Your authentication tokens are stored securely on your device.</li>
               </ul>
 
               <p><strong>2. To operate and provide our Services</strong></p>
               <ul className="hero-list">
                 <li><strong>Type of data:</strong> Technical data (device type, app version) and Usage data (app interactions, preferences)</li>
                 <li><strong>Lawful basis:</strong> Performance of a contract with you; Necessary for our legitimate interests (to deliver and improve our services)</li>
-                <li><strong>How it works:</strong> SwipeTidy accesses your device&apos;s photo library with your explicit permission to display photos for sorting. Your photos never leave your device—all processing happens locally. Your sorting decisions (kept/discarded photo IDs), preferences (haptics, sort order), and progress are stored exclusively on your device using secure local storage.</li>
+                <li><strong>How it works:</strong> WipeSwipe accesses your device&apos;s photo library with your explicit permission to display photos for sorting. Your photos never leave your device—all processing happens locally. Your sorting decisions (kept/discarded photo IDs), preferences (haptics, sort order), and progress are stored exclusively on your device using secure local storage.</li>
               </ul>
 
               <p><strong>3. To manage our relationship with you</strong></p>
@@ -266,7 +266,7 @@ export default function PrivacyPolicy() {
               <ul className="hero-list">
                 <li><strong>Type of data:</strong> Anonymous Technical and Usage data</li>
                 <li><strong>Lawful basis:</strong> Necessary for our legitimate interests (to understand how users interact with the app, identify issues, and develop improvements)</li>
-                <li><strong>How it works:</strong> We may collect anonymized, aggregated data about app usage patterns—such as which features are used most frequently or common error states—to help us improve SwipeTidy. This data cannot be used to identify you personally.</li>
+                <li><strong>How it works:</strong> We may collect anonymized, aggregated data about app usage patterns—such as which features are used most frequently or common error states—to help us improve WipeSwipe. This data cannot be used to identify you personally.</li>
               </ul>
             </div>
           </div>
@@ -299,10 +299,10 @@ export default function PrivacyPolicy() {
                 <strong>3. Government authorities and regulators</strong> — such as tax authorities, law enforcement, or data protection regulators in applicable jurisdictions, when required by law or to protect our legal rights.
               </p>
               <p>
-                <strong>4. Anonymous analytics providers</strong> — We may use analytics tools to collect anonymized usage data (such as app feature usage, crash reports, and performance metrics) to improve SwipeTidy. This data cannot identify you personally and never includes your photos, photo decisions, or account credentials.
+                <strong>4. Anonymous analytics providers</strong> — We may use analytics tools to collect anonymized usage data (such as app feature usage, crash reports, and performance metrics) to improve WipeSwipe. This data cannot identify you personally and never includes your photos, photo decisions, or account credentials.
               </p>
               <p>
-                <strong>5. Third parties in business transfers</strong> — If SwipeTidy is sold, merged, or transfers assets to another company, your personal data may be transferred to the new owners. They would be required to use your data in accordance with this privacy policy. We will notify you of any such change.
+                <strong>5. Third parties in business transfers</strong> — If WipeSwipe is sold, merged, or transfers assets to another company, your personal data may be transferred to the new owners. They would be required to use your data in accordance with this privacy policy. We will notify you of any such change.
               </p>
               <p className="mt-4">
                 <strong>Important:</strong> Your photos, swipe decisions, and library data are stored only on your device and are never uploaded to our servers or shared with any third party.
@@ -337,7 +337,7 @@ export default function PrivacyPolicy() {
             <div className="subsection-title">Your Photos Stay Private</div>
             <div className="subsection-content">
               <p>
-                SwipeTidy operates on a privacy-first model. Your photos and videos are accessed locally on your device using the native media library and are never uploaded, transmitted, or stored on our servers. All photo decisions (keep, delete, organize) happen entirely on your device.
+                WipeSwipe operates on a privacy-first model. Your photos and videos are accessed locally on your device using the native media library and are never uploaded, transmitted, or stored on our servers. All photo decisions (keep, delete, organize) happen entirely on your device.
               </p>
             </div>
           </div>
@@ -412,7 +412,7 @@ export default function PrivacyPolicy() {
               </p>
               <ul className="hero-list">
                 <li>Clear the app&apos;s storage or cache</li>
-                <li>Uninstall SwipeTidy</li>
+                <li>Uninstall WipeSwipe</li>
                 <li>Sign out (which clears authentication tokens)</li>
               </ul>
             </div>
@@ -422,7 +422,7 @@ export default function PrivacyPolicy() {
             <div className="subsection-title">Account Data</div>
             <div className="subsection-content">
               <p>
-                If you create an account with SwipeTidy (via email or Apple Sign-In), we retain your account information (such as your email address and authentication credentials) only for as long as your account remains active. We may retain certain data for a longer period in the event of a complaint, to comply with legal obligations, or if we reasonably believe there is a prospect of litigation.
+                If you create an account with WipeSwipe (via email or Apple Sign-In), we retain your account information (such as your email address and authentication credentials) only for as long as your account remains active. We may retain certain data for a longer period in the event of a complaint, to comply with legal obligations, or if we reasonably believe there is a prospect of litigation.
               </p>
             </div>
           </div>
@@ -444,7 +444,7 @@ export default function PrivacyPolicy() {
             <div className="subsection-title">Anonymized Data</div>
             <div className="subsection-content">
               <p>
-                In some circumstances, we may anonymize usage data (so that it can no longer be associated with you) for analytics or research purposes. Anonymized data may be retained indefinitely to help us improve SwipeTidy.
+                In some circumstances, we may anonymize usage data (so that it can no longer be associated with you) for analytics or research purposes. Anonymized data may be retained indefinitely to help us improve WipeSwipe.
               </p>
             </div>
           </div>
@@ -453,7 +453,7 @@ export default function PrivacyPolicy() {
             <div className="subsection-title">Deleting Your Data</div>
             <div className="subsection-content">
               <p>You can delete your on-device data at any time by:</p>
-              <p><strong>1. Clearing app data</strong> — Settings → Apps → SwipeTidy → Clear Data</p>
+              <p><strong>1. Clearing app data</strong> — Settings → Apps → WipeSwipe → Clear Data</p>
               <p><strong>2. Signing out</strong> — Settings → Account → Sign Out (clears authentication tokens)</p>
               <p><strong>3. Uninstalling the app</strong> — Removes all locally stored data</p>
               <p className="mt-4">
@@ -546,7 +546,7 @@ export default function PrivacyPolicy() {
       {/* Footer */}
       <footer className="footer px-6 md:px-12 lg:px-24 max-w-5xl mx-auto">
         <div className="footer-content">
-          <p>© {new Date().getFullYear()} SwipeTidy</p>
+          <p>© {new Date().getFullYear()} WipeSwipe</p>
           <div className="flex gap-4">
             <a href="mailto:brittjamesg@gmail.com">Contact</a>
             <span className="text-[var(--border)]">|</span>
