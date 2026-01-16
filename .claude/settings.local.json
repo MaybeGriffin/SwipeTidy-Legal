@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(identify:*)",
+      "Bash(copy:*)",
+      "Bash(npm run dev:*)"
+    ]
+  }
+}

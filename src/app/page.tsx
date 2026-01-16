@@ -13,7 +13,7 @@ export default function PrivacyPolicy() {
         {/* Hero Section */}
         <section className="py-12 md:py-20">
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-medium mb-4">Privacy Policy</h1>
-          <p className="text-[var(--foreground-muted)] text-sm">Updated: December 2025</p>
+          <p className="text-[var(--foreground-muted)] text-sm">Updated: January 2026</p>
         </section>
 
         {/* Introduction */}
@@ -24,7 +24,7 @@ export default function PrivacyPolicy() {
             </p>
             <ul className="hero-list">
               <li>Your photos never leave your device—WipeSwipe works entirely on your phone. We never upload, access, or store your photos on any external servers.</li>
-              <li>No ads, no tracking—we don&apos;t serve ads or track you across other apps.</li>
+              <li>Free users see occasional ads—we use Google AdMob to show non-intrusive native ads. Premium subscribers enjoy an ad-free experience. We don&apos;t track you across other apps.</li>
               <li>Authentication is minimal—we use Clerk for secure sign-in, storing only what&apos;s essential for your account.</li>
               <li>You&apos;re in control—you decide which photos to keep or delete. Nothing is permanently removed without your explicit confirmation.</li>
               <li>Local-first by design—all sorting, progress, and swipe decisions are stored on your device.</li>
@@ -143,10 +143,34 @@ export default function PrivacyPolicy() {
                 <strong>– Usage Data</strong> includes anonymous, aggregated information about how you interact with the app (e.g., features used, session duration). This data cannot identify you personally and helps us understand how to improve WipeSwipe.
               </p>
               <p>
+                <strong>– Subscription Data</strong> includes your subscription status (active, expired, or cancelled), subscription tier, and anonymous transaction identifiers. This data is managed by RevenueCat, our subscription management provider. We never receive or store your payment card details—all payment processing is handled securely by Apple&apos;s App Store.
+              </p>
+              <p>
                 We also collect, use and share <strong>Aggregated Data</strong> such as statistical or demographic data for any purpose. Aggregated Data could be derived from your personal data but is not considered personal data in law as this data will not directly or indirectly reveal your identity. However, if we combine or connect Aggregated Data with your personal data so that it can directly or indirectly identify you, we treat the combined data as personal data which will be used in accordance with this privacy policy.
               </p>
               <p>
                 We do not directly collect any <strong>Special Categories of Personal Data</strong> about you (this includes details about your race or ethnicity, religious or philosophical beliefs, sex life, sexual orientation, political opinions, trade union membership, information about your health, and genetic and biometric data). We do not collect any information about criminal convictions and offences.
+              </p>
+            </div>
+          </div>
+
+          <div className="subsection">
+            <div className="subsection-title">Advertising Data (Free Users Only)</div>
+            <div className="subsection-content">
+              <p>
+                If you use WipeSwipe as a free user, we display occasional native ads through Google AdMob. In this context, AdMob may collect:
+              </p>
+              <p>
+                <strong>– Device Advertising Identifier</strong> — Your device&apos;s advertising ID (IDFA on iOS) may be collected to serve relevant ads. On iOS 14.5+, you&apos;ll be asked for permission through App Tracking Transparency before this identifier is accessed.
+              </p>
+              <p>
+                <strong>– Ad Interaction Data</strong> — Information about ads you view or interact with, used to measure ad performance and improve ad relevance.
+              </p>
+              <p>
+                <strong>Premium subscribers are never shown ads</strong> and no advertising-related data is collected for premium users.
+              </p>
+              <p>
+                <strong>EU Users:</strong> If you&apos;re in the European Union, you&apos;ll see a consent form (via Google&apos;s User Messaging Platform) before personalized ads are shown, allowing you to accept or decline personalized advertising in compliance with GDPR.
               </p>
             </div>
           </div>
@@ -212,7 +236,13 @@ export default function PrivacyPolicy() {
                 <strong>— Third-party authentication services.</strong> When you sign in using Apple Sign-In or email-based authentication, our authentication provider (Clerk) may collect limited Identity Data to verify your account. Clerk&apos;s data handling is governed by their privacy policy.
               </p>
               <p>
-                <strong>— Automated technologies.</strong> We do not use tracking cookies, advertising identifiers, or cross-app tracking. We do not collect analytics or usage data unless explicitly disclosed in future updates to this policy.
+                <strong>— Subscription service providers.</strong> When you subscribe to WipeSwipe Pro, our subscription management provider (RevenueCat) processes your subscription through Apple&apos;s App Store. We receive your subscription status (active/expired) and anonymous transaction identifiers to unlock premium features. We never see or store your payment details—all payment processing is handled by Apple.
+              </p>
+              <p>
+                <strong>— Automated technologies.</strong> We do not use tracking cookies or cross-app tracking for our own purposes.
+              </p>
+              <p>
+                <strong>— Advertising SDK (free users only).</strong> If you&apos;re a free user, Google AdMob may collect device identifiers and ad interaction data to serve and measure ad performance. You can opt out of personalized ads through your device settings (Settings → Privacy → Advertising on iOS). Premium subscribers are exempt from all advertising data collection.
               </p>
             </div>
           </div>
@@ -293,16 +323,22 @@ export default function PrivacyPolicy() {
                 <strong>1. Authentication service providers</strong> — We use Clerk to manage user accounts and authentication. Clerk processes your identity data (such as email address and name) solely to provide secure sign-in functionality. Clerk is bound by their own privacy policy and data protection obligations.
               </p>
               <p>
-                <strong>2. Professional advisers</strong> — including lawyers, accountants, auditors, and insurers who provide us with legal, financial, or insurance services.
+                <strong>2. Subscription management provider</strong> — We use RevenueCat to manage subscriptions and in-app purchases. RevenueCat receives anonymized purchase data from Apple&apos;s App Store to sync your subscription status across devices. RevenueCat does not receive your payment card details. RevenueCat&apos;s data handling is governed by their privacy policy.
               </p>
               <p>
-                <strong>3. Government authorities and regulators</strong> — such as tax authorities, law enforcement, or data protection regulators in applicable jurisdictions, when required by law or to protect our legal rights.
+                <strong>3. Professional advisers</strong> — including lawyers, accountants, auditors, and insurers who provide us with legal, financial, or insurance services.
               </p>
               <p>
-                <strong>4. Anonymous analytics providers</strong> — We may use analytics tools to collect anonymized usage data (such as app feature usage, crash reports, and performance metrics) to improve WipeSwipe. This data cannot identify you personally and never includes your photos, photo decisions, or account credentials.
+                <strong>4. Government authorities and regulators</strong> — such as tax authorities, law enforcement, or data protection regulators in applicable jurisdictions, when required by law or to protect our legal rights.
               </p>
               <p>
-                <strong>5. Third parties in business transfers</strong> — If WipeSwipe is sold, merged, or transfers assets to another company, your personal data may be transferred to the new owners. They would be required to use your data in accordance with this privacy policy. We will notify you of any such change.
+                <strong>5. Advertising provider (free users only)</strong> — We use Google AdMob to display native ads to free users. AdMob may collect device advertising identifiers and ad interaction data to serve relevant ads and measure ad performance. AdMob&apos;s data practices are governed by Google&apos;s privacy policy. Premium subscribers are never shown ads and no advertising data is shared with AdMob for these users.
+              </p>
+              <p>
+                <strong>6. Anonymous analytics providers</strong> — We may use analytics tools to collect anonymized usage data (such as app feature usage, crash reports, and performance metrics) to improve WipeSwipe. This data cannot identify you personally and never includes your photos, photo decisions, or account credentials.
+              </p>
+              <p>
+                <strong>7. Third parties in business transfers</strong> — If WipeSwipe is sold, merged, or transfers assets to another company, your personal data may be transferred to the new owners. They would be required to use your data in accordance with this privacy policy. We will notify you of any such change.
               </p>
               <p className="mt-4">
                 <strong>Important:</strong> Your photos, swipe decisions, and library data are stored only on your device and are never uploaded to our servers or shared with any third party.
