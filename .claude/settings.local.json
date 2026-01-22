@@ -3,7 +3,8 @@
     "allow": [
       "Bash(identify:*)",
       "Bash(copy:*)",
-      "Bash(npm run dev:*)"
+      "Bash(npm run dev:*)",
+      "Bash(tree:*)"
     ]
   }
 }
